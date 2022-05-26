@@ -9,7 +9,7 @@ const Collections = {
             name: "Franz Cat",
             description: "Friendly OpenSea Creature that enjoys long swims in the ocean.",
             external_url: "https://openseacreatures.io/3",
-            image: "https://ibb.co/Pg6MtXN",
+            image: "https://i.ibb.co/9WrhGKN/Cat-04.jpg",
 
         }
     ]
