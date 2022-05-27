@@ -26,6 +26,12 @@ const Collections = {
             image: "https://i.ibb.co/Q9h72ST/bird-02.png",
         },
         {
+            name: "Adrian",
+            description: "A bored sailor bird.",
+            external_url: "https://openseacreatures.io/3",
+            image: "https://i.ibb.co/xCQMQMR/bird-03.png",
+        },
+        {
             name: "Scrooge McBird",
             description: "A bored money lover bird.",
             external_url: "https://openseacreatures.io/3",
