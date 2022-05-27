@@ -1,4 +1,5 @@
 const express = require('express');
+const res = require('express/lib/response');
 const { Collections, Contracts } = require('./data');
 const app = express();
 
@@ -15,7 +16,7 @@ app.get('/:collection/:id', (req, res) => {
 })
 
 app.get('/nfts', () => {
-    return Contracts;
+    res.send(Contracts);
 })
 
 app.listen(PORT, () => {
