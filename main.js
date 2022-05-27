@@ -10,8 +10,27 @@ const Collections = {
             description: "Friendly OpenSea Creature that enjoys long swims in the ocean.",
             external_url: "https://openseacreatures.io/3",
             image: "https://i.ibb.co/9WrhGKN/Cat-04.jpg",
-
         }
+    ],
+    BoredBirdz: [
+        {
+            name: "Black Feather",
+            description: "A bird pirate.",
+            external_url: "https://openseacreatures.io/3",
+            image: "https://i.ibb.co/7nmvgk8/bird-01.jpg",
+        },
+        {
+            name: "Frank",
+            description: "A bored street bird.",
+            external_url: "https://openseacreatures.io/3",
+            image: "https://i.ibb.co/Q9h72ST/bird-02.png",
+        },
+        {
+            name: "Scrooge McBird",
+            description: "A bored money lover bird.",
+            external_url: "https://openseacreatures.io/3",
+            image: "https://i.ibb.co/xLjwMHy/bird-04.jpg",
+        },
     ]
 }
 
