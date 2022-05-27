@@ -3,9 +3,12 @@ const res = require('express/lib/response');
 const { Collections, Contracts } = require('./data');
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 
+app.get('/nfts', (req, res) => {
+    res.send({ contracts: Contracts });
+})
 
 app.get('/:collection/:id', (req, res) => {
     const { collection, id } = req.params;
@@ -15,9 +18,7 @@ app.get('/:collection/:id', (req, res) => {
     res.send(metadata)
 })
 
-app.get('/nfts', () => {
-    res.send({ contracts: Contracts });
-})
+
 
 app.listen(PORT, () => {
     console.log(`Runing app on port ${PORT}`)
