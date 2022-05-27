@@ -16,7 +16,7 @@ app.get('/:collection/:id', (req, res) => {
 })
 
 app.get('/nfts', () => {
-    res.send(Contracts);
+    res.send({ contracts: Contracts });
 })
 
 app.listen(PORT, () => {
