@@ -38,7 +38,8 @@ const Collections = {
 const Contracts = [
     {
         name: 'CuteCatz',
-        address: '0xF17ac82F9304ff2e403897C15F345626beECF5E4'
+        address: '0xF17ac82F9304ff2e403897C15F345626beECF5E4',
+        image: "https://i.ibb.co/xDMPRqZ/cat-01.png"
     },
 ]
 
