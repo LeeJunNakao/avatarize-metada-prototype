@@ -38,20 +38,8 @@ const Collections = {
 const Contracts = [
     {
         name: 'CuteCatz',
-        address: '0x4546954dB3034517Be742258bB4056c3bE8397f2'
+        address: '0xF17ac82F9304ff2e403897C15F345626beECF5E4'
     },
-    {
-        name: 'CuteCats',
-        address: '0xD2D7eb762d900C053b5Afb7E403C1Ce4b6CdD892'
-    },
-    {
-        name: 'MaryNFTS',
-        address: '0x421890617953f3D7699E1B640d1aceD5bef52BF2'
-    },
-    {
-        name: 'BoredBirdz',
-        address: '0x1cF2a6Bb4Be3b288A62d1E73cD171daF7fb419A6'
-    }
 ]
 
 module.exports = { Collections, Contracts }
